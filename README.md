@@ -4,8 +4,9 @@
 
 FlightTracker allows users to check flight status by using iata code. Users are able to get information such as:
 * Acutal status of flight
-* Departure/arrival airport and terminal
-* Schedulded and actual hours
+* Name of departure/arrival airport 
+* Schedulded/actual departure time
+* Schedulded/actual arrival time
 * Airlines information
 
 All data provided by Aviationstack API service. 
