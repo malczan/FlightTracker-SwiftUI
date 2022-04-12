@@ -13,7 +13,7 @@ class FlightService{
     
     func getFlight(iata : String, completion: @escaping(FlightModel?) -> ()){
         
-        guard let url = URL(string:"http://api.aviationstack.com/v1/flights?access_key={YOUR_API_KEY}=\(iata)") else {
+        guard let url = URL(string:"http://api.aviationstack.com/v1/flights?access_key={YOUR_API_KEY}&flight_iata=\(iata)") else {
             return
         }
         
